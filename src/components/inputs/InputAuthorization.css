@@ -1,0 +1,16 @@
+.input {
+    border: 1px solid #79747e;
+    border-radius: 4px;
+    width: 500px;
+    height: 60px;
+    font-family: var(--font-family);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 111%;
+    letter-spacing: 0.01em;
+    padding-left: 10px;
+}
+
+:root {
+    --font-family: "Roboto", sans-serif;
+}
