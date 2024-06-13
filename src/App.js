@@ -4,7 +4,7 @@ import ButtonAuthorization from './components/buttons/ButtonAutorization.jsx';
 import ModalAuthorization from './components/modals/ModalAuthorization.jsx';
 
 function App() {
-  const [modalActive, setModalActive] = useState(true);
+  const [modalActive, setModalActive] = useState(false);
 
   return (
     <div>

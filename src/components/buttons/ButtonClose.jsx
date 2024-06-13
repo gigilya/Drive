@@ -2,14 +2,11 @@ import React from 'react';
 import './ButtonClose.css'
 
 
-const CloseButton = ({src}) => {
-    const handleClick = () => {
-        console.log('click');
-    };
+const CloseButton = ({src, onClick}) => {
 
     return (
-        <button className='button-close' onClick={handleClick}>
-            <img src={src} alt=''/>
+        <button className='button-close' onClick={onClick}>
+            <img src={CLOSE} alt=''/>
         </button>
   );
 };

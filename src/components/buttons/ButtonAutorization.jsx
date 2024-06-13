@@ -1,13 +1,10 @@
 import React from 'react';
 import './ButtonAuthorization.css'
 
-const ButtonAuthorization = () => {
-    const handleClick = () => {
-      console.log('click');
-    };
+const ButtonAuthorization = ({onClick}) => {
   
     return (
-      <button className="button" onClick={handleClick}>
+      <button className="button" onClick={onClick}>
         Sign in
       </button>
     );
