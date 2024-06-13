@@ -1,17 +1,15 @@
 // import './App.css';
-import React from 'react';
-import Button from './components/buttons/ButtonAutorization.jsx';
-import InputAuthorization from './components/inputs/InputAuthorization.jsx';
-import CloseButton from './components/buttons/ButtonClose.jsx';
+import React, { useState } from 'react';
+import ButtonAuthorization from './components/buttons/ButtonAutorization.jsx';
+import ModalAuthorization from './components/modals/ModalAuthorization.jsx';
 
 function App() {
+  const [modalActive, setModalActive] = useState(true);
+
   return (
     <div>
-      <Button />
-      <InputAuthorization type="email" placeholder="Gmail" />
-      <br/>
-      <InputAuthorization type="password" placeholder="Password" />
-      <CloseButton />
+      <ButtonAuthorization onClick={() => setModalActive(true)}/>
+      <ModalAuthorization active={modalActive} setActive={setModalActive}/>
     </div>
   );
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import './ButtonAuthorization.css'
 
-const Button = () => {
+const ButtonAuthorization = () => {
     const handleClick = () => {
       console.log('click');
     };
@@ -13,4 +13,4 @@ const Button = () => {
     );
   };
 
-export default Button;
+export default ButtonAuthorization;
