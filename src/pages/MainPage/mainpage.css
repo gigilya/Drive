@@ -37,7 +37,7 @@ title{
     top: -115px;
 
 }
-#content{
+.content{
     margin: 20 auto;
     display: table;
     border-spacing: 50px;
@@ -45,11 +45,11 @@ title{
     float: left;
     }
      
-    #content div {
+    .content div {
     display: table-row;
     }
      
-    #content div div {
+    .content div div {
     display: table-cell;
     }
 
@@ -57,10 +57,17 @@ title{
 .recbase {
     width: 1000px;
     height: 400px;
-    background: #9cc8f4;
+    background: #0066FF1A;
+    ;
     top: 205px;
-    left: 140px;
     position: absolute;
     border-radius: 30px;
     flex-direction: column;
+}
+body {
+    vertical-align: middle;
+    padding-left: 100px;
+}
+.signin{
+    padding-left: 1000px;
 }
