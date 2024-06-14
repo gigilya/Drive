@@ -13,8 +13,9 @@ h2{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
     Text-align: center;
-    line-height: 45;
+    line-height:initial;
     padding-right: 200px;
+    padding-top: 1000px;
 }
 
 title{
@@ -24,30 +25,36 @@ title{
     font-weight: bold;
 }
 
-label{
+.label{
     color: black;
     font-size: 20px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
-    padding-left: 100px;
-    line-height: 5;
-}
+    padding-left: 150px;
+    line-height:initial;
+    padding-top: 100px;
+    position: relative;
+    top: -115px;
 
-body{
-    color: black;
-    font-size: 24px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: bold;
-    Text-align: center;
-    line-height: 1;
-    padding-left: 20px;
 }
-#parent{
-    display: flex;
-    flex-direction: column;
-}
+#content{
+    margin: 20 auto;
+    display: table;
+    border-spacing: 50px;
+    width: 85%;
+    float: left;
+    }
+     
+    #content div {
+    display: table-row;
+    }
+     
+    #content div div {
+    display: table-cell;
+    }
 
-#recbase {
+
+.recbase {
     width: 1000px;
     height: 400px;
     background: #9cc8f4;
@@ -56,201 +63,4 @@ body{
     position: absolute;
     border-radius: 30px;
     flex-direction: column;
-}
-
-#recforpeople1_1 {
-    width: 200px;
-    height: 100px;
-    background: #6ab1f9;
-    top: 1094px;
-    left: 172px;
-    border-radius: 16px;
-    position: absolute;
-}
-#circle1_1 {
-    width: 60px;
-    height: 60px;
-    background: #ffffff;
-    -moz-border-radius: 60px;
-    -webkit-border-radius: 60px;
-    border-radius: 30px;
-    position: absolute;
-    top: 1114px;
-    left: 198px;
-}
-#recforpeople1_2 {
-    width: 200px;
-    height: 100px;
-    background: #6ab1f9;
-    top: 1094px;
-    left: 547px;
-    border-radius: 16px;
-    position: absolute;
-}
-#circle1_2 {
-    width: 60px;
-    height: 60px;
-    background: #ffffff;
-    -moz-border-radius: 60px;
-    -webkit-border-radius: 60px;
-    border-radius: 30px;
-    position: absolute;
-    top: 1114px;
-    left: 573px;
-}
-#recforpeople1_3 {
-    width: 200px;
-    height: 100px;
-    background: #6ab1f9;
-    top: 1094px;
-    left: 908px;
-    border-radius: 16px;
-    position: absolute;
-}
-#circle1_3 {
-    width: 60px;
-    height: 60px;
-    background: #ffffff;
-    -moz-border-radius: 60px;
-    -webkit-border-radius: 60px;
-    border-radius: 30px;
-    position: absolute;
-    top: 1114px;
-    left: 934px;
-}
-
-#recforpeople2_1 {
-    width: 200px;
-    height: 100px;
-    background: #6ab1f9;
-    top: 1241px;
-    left: 172px;
-    border-radius: 16px;
-    position: absolute;
-}
-#circle2_1 {
-    width: 60px;
-    height: 60px;
-    background: #ffffff;
-    -moz-border-radius: 60px;
-    -webkit-border-radius: 60px;
-    border-radius: 30px;
-    position: absolute;
-    top: 1261px;
-    left: 198px;
-}
-#recforpeople2_2 {
-    width: 200px;
-    height: 100px;
-    background: #6ab1f9;
-    top: 1241px;
-    left: 547px;
-    border-radius: 16px;
-    position: absolute;
-}
-#circle2_2 {
-    width: 60px;
-    height: 60px;
-    background: #ffffff;
-    -moz-border-radius: 60px;
-    -webkit-border-radius: 60px;
-    border-radius: 30px;
-    position: absolute;
-    top: 1261px;
-    left: 573px;
-}
-#recforpeople2_3 {
-    width: 200px;
-    height: 100px;
-    background: #6ab1f9;
-    top: 1241px;
-    left: 908px;
-    border-radius: 16px;
-    position: absolute;
-}
-#circle2_3 {
-    width: 60px;
-    height: 60px;
-    background: #ffffff;
-    -moz-border-radius: 60px;
-    -webkit-border-radius: 60px;
-    border-radius: 30px;
-    position: absolute;
-    top: 1261px;
-    left: 934px;
-}
-#recforpeople3_1 {
-    width: 200px;
-    height: 100px;
-    background: #6ab1f9;
-    top: 1388px;
-    left: 172px;
-    border-radius: 16px;
-    position: absolute;
-}
-#circle3_1 {
-    width: 60px;
-    height: 60px;
-    background: #ffffff;
-    -moz-border-radius: 60px;
-    -webkit-border-radius: 60px;
-    border-radius: 30px;
-    position: absolute;
-    top: 1408px;
-    left: 198px;
-}
-#recforpeople3_2 {
-    width: 200px;
-    height: 100px;
-    background: #6ab1f9;
-    top: 1388px;
-    left: 547px;
-    border-radius: 16px;
-    position: absolute;
-}
-#circle3_2 {
-    width: 60px;
-    height: 60px;
-    background: #ffffff;
-    -moz-border-radius: 60px;
-    -webkit-border-radius: 60px;
-    border-radius: 30px;
-    position: absolute;
-    top: 1408px;
-    left: 573px;
-}
-#recforpeople3_3 {
-    width: 200px;
-    height: 100px;
-    background: #6ab1f9;
-    top: 1388px;
-    left: 908px;
-    border-radius: 16px;
-    position: absolute;
-}
-#circle3_3 {
-    width: 60px;
-    height: 60px;
-    background: #ffffff;
-    -moz-border-radius: 60px;
-    -webkit-border-radius: 60px;
-    border-radius: 30px;
-    position: absolute;
-    top: 1408px;
-    left: 934px;
-}
-
-#ovalsing {
-    width: 150px;
-    height: 40px;
-    background: #6ab1f9;
-    top: 40px;
-    left: 1075px;
-    position: absolute;
-    -webkit-border-radius: 100px / 50px;
-    -moz-border-radius: 100px / 50px;
-    border-radius: 100px / 50px;
-    gap: 8px;
-    flex-direction: column;
-    border: none;
 }
