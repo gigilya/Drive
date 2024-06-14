@@ -1,14 +1,13 @@
 import React from 'react';
 import './mainPage.css';
-import ButSignIn from '../../components/buttons/ButSignIn';
 import RectangleWithHuman from '../../components/buttons/RectangleWithHuman';
+import ButtonAuthorization from '../../components/buttons/ButtonAutorization';
 
 function Mainpage() {
   return (
     <div className="Mainpage">
       <body>
-        <ButSignIn />
-
+        <div class = "signin"><ButtonAuthorization/></div>
         <div class='recbase'>
           <h1>
             KPTC-Drive-3-1
@@ -20,9 +19,9 @@ function Mainpage() {
         </h2>
 
 
-        <div id="content">
+        <div class="content">
           <div>
-            <div><RectangleWithHuman /> <label class = 'label'>gigilya</label></div>
+            <div><RectangleWithHuman /> <label class = 'label'>sdfghj</label></div>
             <div><RectangleWithHuman /> <label class = 'label'>gigilya</label></div>
             <div><RectangleWithHuman /> <label class = 'label'>gigilya</label></div>
           </div>
