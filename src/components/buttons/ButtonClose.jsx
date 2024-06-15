@@ -6,7 +6,7 @@ const CloseButton = ({src, onClick}) => {
 
     return (
         <button className='button-close' onClick={onClick}>
-            <img src={CLOSE} alt=''/>
+            <img src={src} alt=''/>
         </button>
   );
 };
