@@ -1,0 +1,24 @@
+.base {
+    width: 200px;
+    height: 100px; 
+    position: relative;
+}
+.recforpeople {
+    width: 200px;
+    height: 100px;
+    background: #CFE2FF;
+    border-radius: 16px;
+    position: absolute;
+    z-index: -1;
+}
+.circle {
+    width: 60px;
+    height: 60px;
+    background: #ffffff;
+    -moz-border-radius: 60px;
+    -webkit-border-radius: 60px;
+    border-radius: 30px;
+    position:absolute;
+    bottom: 1.5pc;
+    left: 1pc;
+}
