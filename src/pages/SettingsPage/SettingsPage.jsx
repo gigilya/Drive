@@ -14,7 +14,7 @@ function settingspage() {
         </div>
         <div className="container">
             <div className="content">
-                <img src={"https://www.svgrepo.com/show/504008/user-people-account.svg"} alt=""/>
+                <img src={"https://www.svgrepo.com/show/504008/user-people-account.svg"} alt="изображение не найдено"/>
                 <InputAuthorization className="input" type="name" placeholder="Name" />
                 <InputAuthorization className="input" type="email" placeholder="Gmail" />
                 <ButtonSave/>
