@@ -1,0 +1,17 @@
+.files {
+    margin-left: 20%;
+    margin-right: 10%;
+}
+
+.h1 {
+    margin-bottom: 80px;
+}
+
+.hr-files {
+    margin-left: 10px;
+    border: 1px solid #cac4d0;
+    height: 0px;
+}
+* {
+    margin: 0;
+}

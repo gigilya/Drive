@@ -1,0 +1,20 @@
+.button-folder {
+    border: none;
+    border-radius: 100px;
+    width: 200px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #cfe2ff;
+    cursor: pointer;
+}
+
+.button-folder:focus {
+    background: rgba(0, 102, 255, 0.2);
+  }
+
+.button-folder img {
+    margin-right: 0.5rem;
+  }
+

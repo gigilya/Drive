@@ -1,0 +1,13 @@
+.button-file {
+    border: none;
+    cursor: pointer;
+    background-color:white;
+    font-size: 16px;
+    font-weight: 500;
+    width: 1000px;
+    text-align: left;
+    margin: 10px 0 10px 30px
+}
+
+
+
