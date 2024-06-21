@@ -3,26 +3,25 @@ import './settingspage.css';
 import ButtonSave from "../../components/buttons/ButtonSave";
 import ButtonCancel from "../../components/buttons/ButtonCancel";
 import InputAuthorization from "../../components/inputs/InputAuthorization";
-//import icon from "../../resource/icons/profile.svg";
+import icon from "../../resource/icons/User Images.svg";
 
 
-function settingspage() {
+function SettingsPage() {
     return (
         <body>
-        <div className="header">
-
-        </div>
         <div className="container">
             <div className="content">
-                <img src={"https://www.svgrepo.com/show/504008/user-people-account.svg"} alt="изображение не найдено"/>
+                <img src={icon} alt="изображение не найдено"/>
                 <InputAuthorization className="input" type="name" placeholder="Name" />
                 <InputAuthorization className="input" type="email" placeholder="Gmail" />
-                <ButtonSave/>
-                <ButtonCancel/>
+                <div className='buttons'>
+                    <ButtonSave/>
+                    <ButtonCancel/>
+                </div>
             </div>
         </div>
         </body>
     );
 }
 
-export default settingspage;
+export default SettingsPage;

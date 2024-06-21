@@ -32,13 +32,12 @@ title {
 
 .content {
     display: flex;
-    width: 1200px;
+    width: 1400px;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 75px;
+    gap: 50px;
     margin: 100px 0 100px 0;
-
 }
 
 .info {

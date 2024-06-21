@@ -9,12 +9,10 @@
     width: 150px;
     height: 50px;
     background: #a5c9fd;
-    padding: 10px 24px;
     font-size: 18px;
     font-weight: 500;
     line-height: 111%;
     letter-spacing: 0.01em;
-    text-align: center;
     border: none;
     cursor: pointer;
 }
