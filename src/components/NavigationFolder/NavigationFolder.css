@@ -1,0 +1,17 @@
+.section-header {
+    margin-top: 0px;
+    /* width: 240px; */
+    /* height: 100%; */
+    padding: 12 px;
+    /* background-color: #cfe2ff; */
+    /* float:left; */
+    
+}
+
+.line {
+    width: 240px;
+    height: 100vh;
+    background-color: #cfe2ff;
+    float:left;
+    position: fixed;
+}

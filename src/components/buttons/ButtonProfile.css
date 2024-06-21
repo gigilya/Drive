@@ -1,0 +1,10 @@
+.button-profile {
+    border: none;
+    cursor: pointer;
+    border-radius: 100px;
+    fill: #cfe2ff;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    padding: 0px;
+}

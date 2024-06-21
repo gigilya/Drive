@@ -1,0 +1,7 @@
+.button-more {
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    float:right;
+    margin: 10px 0 0 0;
+}
