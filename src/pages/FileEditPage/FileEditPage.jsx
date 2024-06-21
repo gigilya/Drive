@@ -13,10 +13,8 @@ export default function FoldersPage() {
       <div className='cont'>
         <h1 className='h1'>Label</h1>
         <div className='file-editor'>
-
         </div>
       </div>
-
     </body>
   )
 }
